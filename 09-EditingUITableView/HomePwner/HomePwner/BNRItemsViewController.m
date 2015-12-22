@@ -10,7 +10,7 @@
 #import "BNRItemStore.h"
 #import "BNRItem.h"
 
-@interface BNRItemsViewController ()
+@interface BNRItemsViewController ()<UITableViewDelegate,UItableViewDataSource>
 
 @property (nonatomic, strong) IBOutlet UIView *headerView;
 
